@@ -1,0 +1,30 @@
+name: Vanish
+version: 1.0
+main: pl.vatrykpega.vanish.Main
+author: Vatryk Pega
+
+commands:
+  togglepickup:
+    aliases: [togglepick, pickup, tpu, npu]
+  vanish:
+    aliases: [v, vanishgg]
+permissions:
+  vanish.*:
+    children:
+      vanish.command.togglepickup: true
+      vanish.command.vanish: true
+      vanish.silent: true
+      vanish.reload: true
+      vanish.join: true
+      vanish.show: true
+      vanish.notification: true
+      vanish.blockbreak: true
+      vanish.blockplace: true
+      vanish.dropitem: true
+      vanish.interact: true
+  vanish.commands:
+    children:
+      vanish.command.togglepickup: true
+      vanish.command.vanish: true
+      vanish.silent: true
+      vanish.reload: true

@@ -1,0 +1,35 @@
+#Config:
+#Jesli przy wiadomosci znajduje sie "ForOther" mozesz uzyc %player% przez co plugin bedzie wiedzial, zeby wyswietlic nick gracza wywolujacego komende /vanish.
+
+#Wiadomosc przy dolaczeniu na serwer gracza z vanishem:
+VanishJoin: '&3Dolaczyles na serwer i stales sie niewidzialny! Poof.'
+
+#Wiadomosc dla innych graczy z uprawnieniem "vanishgg.notification" przy dolaczeniu na serwer gracza z vanishem:
+VanishJoinForOthers: '&3%player% dolaczyl do serwera i stal sie niewidzialny!'
+
+#Wiadomosc dla innych graczy z uprawnieniem "vanishgg.notification" przy wyjsciu z serwera gracza z vanishem:
+VanishQuitForOthers: '&3%player% wyszedl z serwera, wiec nie moze byc juz dluzej widoczny!'
+
+#Wiadomosc przy wlaczeniu vanisha:
+EnableVanish: '&3Stales sie niewidzialny! Poof.'
+
+#Wiadomosc przy wlaczeniu vanisha dla innych graczy z uprawnieniem "vanishgg.notification":
+EnableVanishForOthers: '&3%player% stal sie niewidzialny!'
+
+#Wiadomosc przy wylaczaniu vanisha:
+DisableVanish: '&3Od teraz jestes widoczny dla wszystkich!'
+
+#Wiadomosc przy wylaczeniu vanisha dla innych graczy z uprawnieniem "vanishgg.notification":
+DisableVanishForOthers: '&3%player% jest teraz widoczny dla wszystkich!'
+
+#Wiadomosc przy wlaczeniu podnoszenia przedmiotow:
+EnablePickUp: '&aWlaczono podnoszenie przedmiotow na vanishu!'
+
+#Wiadomosc przy wylaczeniu podnoszenia przedmiotow:
+DisablePickUp: '&cWylaczono podnoszenie przedmiotow na vanishu!'
+
+#Nazwa gui skrzynki na podgladzie vanisha:
+ChestName: '&3Podglad skrzynki:'
+
+#Wiadomosc wyswietlana w momencie otwierania skrzyni na vanishu:
+OpenChestSilent: '&3Wlaczono podglad skrzyni, nie mozesz jej edytowac!'
